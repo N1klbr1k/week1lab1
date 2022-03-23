@@ -6,7 +6,15 @@
   If it is not, console log "Coding has its challenges."
 */
 
+
 //CODE HERE
+let lovesCode = true;
+
+if(lovesCode){
+    console.log("I love to code!");
+}else{
+    console.log("Coding has its challenges");
+}
 
 // For problems 2-3 use the following lines of code:
 var amysAge = 29;
@@ -21,6 +29,13 @@ var brittanisBirthYear = 1986;
 */
 
 //CODE HERE
+if(amysAge > brittanisAge){
+    console.log('Amy is older');
+}else if( brittanisAge > amysAge){
+    console.log(' brittani is older');
+}else {
+    console.log('they are the same age.');
+}
 
 ////////// PROBLEM 3 //////////
 
@@ -29,6 +44,11 @@ var brittanisBirthYear = 1986;
 */
 
 //CODE HERE
+if( amysBirthYear === brittanisBirthYear){
+    console.log('Amy and Brittani were born in the same year');
+} else {
+    console.log('Amy and Brittani were not born in the same year.');
+}
 
 ////////// PROBLEM 4 //////////
 
@@ -41,6 +61,19 @@ let rain = true;
 */
 
 //CODE HERE
+if( temperature >= 80 && rain){
+    console.log('wear a t-shirt and carry an umbrella');
+}else if( temperature < 80 && temperature > 60 && rain){
+    console.log('wear  a rain-jacket');
+}else if(temperature <= 60 && rain){
+    console.log('wear a jacket and carry an umbrella');
+}else if(temperature >=80 && rain !== true){
+    console.log('wear a t shirt');
+}else if(temperature < 80 && temperature > 60 && rain !== true){
+    console.log('wear a light jacket');
+}else{
+    console.log('wear a jacket');
+}
 
 ////////// PROBLEM 5 //////////
 
